@@ -1,0 +1,29 @@
+{
+  "name": "node-jutil",
+  "version": "0.0.1",
+  "description": "this is util collection",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/devjin0617/node-jutil.git"
+  },
+  "keywords": [
+    "util",
+    "lib",
+    "library",
+    "simple",
+    "convert",
+    "underscore",
+    "express",
+    "utils"
+  ],
+  "author": "devjin0617",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/devjin0617/node-jutil/issues"
+  },
+  "homepage": "https://github.com/devjin0617/node-jutil"
+}
