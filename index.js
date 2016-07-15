@@ -9,5 +9,6 @@ module.exports = {
         mongo : require('./lib/db/mongo'),
         mysql : require('./lib/db/mysql'),
         mssql : require('./lib/db/mssql')
-    }
+    },
+    crypto : require('./lib/crypto/crypto')
 };
