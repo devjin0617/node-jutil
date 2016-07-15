@@ -25,5 +25,8 @@
   "bugs": {
     "url": "https://github.com/devjin0617/node-jutil/issues"
   },
-  "homepage": "https://github.com/devjin0617/node-jutil"
+  "homepage": "https://github.com/devjin0617/node-jutil",
+  "dependencies": {
+    "mongoose": "^4.5.4"
+  }
 }
