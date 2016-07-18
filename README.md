@@ -13,5 +13,5 @@ npm i node-jutil --save
 ```
 
 
-[npm-image]: https://img.shields.io/badge/npm-v0.0.4-blue.svg
+[npm-image]: https://img.shields.io/badge/npm-v0.0.2-blue.svg
 [npm-url]: https://www.npmjs.com/package/node-jdate
