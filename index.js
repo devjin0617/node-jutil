@@ -11,5 +11,6 @@ module.exports = {
         mssql : require('./lib/db/mssql')
     },
     crypto : require('./lib/crypto/crypto'),
-    net : require('./lib/net/net')
+    net : require('./lib/net/net'),
+    log : require('./lib/log/log')
 };

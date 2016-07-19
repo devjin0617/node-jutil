@@ -37,4 +37,40 @@ describe('node-jutil mocha test', () => {
 
     });
 
+    describe('net test', () => {
+
+        it('it is pass', () => {
+
+        });
+
+    });
+
+    describe('log test', () => {
+
+        it('trace test', () => {
+
+        });
+
+        it('debug test', () => {
+
+        });
+
+        it('info test', () => {
+
+        });
+
+        it('warn test', () => {
+
+        });
+
+        it('error test', () => {
+
+        });
+
+        it('fatal test', () => {
+
+        });
+
+    });
+
 });
