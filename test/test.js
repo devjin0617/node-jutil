@@ -48,27 +48,27 @@ describe('node-jutil mocha test', () => {
     describe('log test', () => {
 
         it('trace test', () => {
-
+            jutil.log.trace('console trace');
         });
 
         it('debug test', () => {
-
+            jutil.log.debug('console debug');
         });
 
         it('info test', () => {
-
+            jutil.log.info('console info');
         });
 
         it('warn test', () => {
-
+            jutil.log.warn('console warning');
         });
 
         it('error test', () => {
-
+            jutil.log.error('console error');
         });
 
         it('fatal test', () => {
-
+            jutil.log.fatal('console fatal');
         });
 
     });
