@@ -48,27 +48,39 @@ describe('node-jutil mocha test', () => {
     describe('log test', () => {
 
         it('trace test', () => {
-            jutil.log.trace('console trace');
+            jutil.log.trace({
+                text : 'console trace'
+            });
         });
 
         it('debug test', () => {
-            jutil.log.debug('console debug');
+            jutil.log.debug({
+                text : 'console debug'
+            });
         });
 
         it('info test', () => {
-            jutil.log.info('console info');
+            jutil.log.info({
+                text : 'console info'
+            });
         });
 
         it('warn test', () => {
-            jutil.log.warn('console warning');
+            jutil.log.warn({
+                text : 'console warning'
+            });
         });
 
         it('error test', () => {
-            jutil.log.error('console error');
+            jutil.log.error({
+                text : 'console error'
+            });
         });
 
         it('fatal test', () => {
-            jutil.log.fatal('console fatal');
+            jutil.log.fatal({
+                text : 'console fatal'
+            });
         });
 
     });
