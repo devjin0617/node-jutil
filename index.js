@@ -10,6 +10,9 @@ module.exports = {
         mysql : require('./lib/db/mysql'),
         mssql : require('./lib/db/mssql')
     },
+    cache : {
+        redis : require('./lib/cache/redis')
+    },
     crypto : require('./lib/crypto/crypto'),
     net : require('./lib/net/net'),
     log : require('./lib/log/log')
